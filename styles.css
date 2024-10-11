@@ -1,0 +1,566 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeef8; /* Latar belakang pink pastel */
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* return to top of page */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #fc77c4;
+    color: #fefcfc;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #e47d9e;
+}
+
+.header {
+    background: linear-gradient(135deg, #ffb3d9, #ffccdf);
+    color: #f93b9d;
+    padding: 2rem 1rem;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.start-btn {
+    display: block; /* Mengubah tombol menjadi elemen blok */
+    background-color: #ff80ab; /* Warna tombol */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    text-align: center; /* Memastikan teks di tengah */
+    margin: 0 auto; /* Center tombol di dalam kontainer */
+    width: fit-content; /* Mengatur lebar tombol sesuai isi */
+}
+
+.start-btn:hover {
+    background-color: #f03a64; /* Warna saat hover */
+}
+
+/* Style untuk bagian lain */
+body {
+    background-color: #f1d6e6; /* Latar belakang pink pastel */
+}
+
+/* Untuk mempercantik footer */
+footer {
+    background: #ffccdf; /* Latar belakang footer pink pastel */
+    color: #333;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem; /* Jarak antar link */
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.menu a:hover {
+    background: #ff80ab; /* Warna saat hover */
+    color: white;
+    transform: scale(1.05);
+}
+
+.menu a.disabled-link {
+    color: #ccc; /* Warna untuk link yang dinonaktifkan */
+    pointer-events: none; /* Menonaktifkan interaksi */
+    text-decoration: line-through; /* Garis tengah untuk link yang dinonaktifkan */
+}
+
+
+.image-section img {
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-section {
+    text-align: right; /* Mengatur gambar agar berada di sisi kanan */
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-color: #e2e2e2;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-btn:hover {
+    background-color: #ffffff;
+}
+
+nav ul li {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.bio {
+    font-size: 36px;
+    color: white;
+    text-align: left;
+
+}
+
+.bio h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bio p {
+    font-size: 18px;
+    color: #e0e0f3;
+    text-align: left;
+    
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 75px;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 1;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
+
+.fun-fact {
+    margin-left: 20px;
+    background-color: #eba8c7;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.fun-fact{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+section h2 {
+    color: #f94883; /* Judul pink pastel */
+    text-align: center;
+    
+}
+
+.bout {
+    background:FF8A8A;
+    color: rgb(250, 5, 148);
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem auto;
+    text-align: center;
+    background: #fea1c0; /* Latar belakang putih */
+    max-width: 900px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.5s forwards;
+    text-align: justify;
+}
+.about-container {
+    display: flex;  
+    align-items: center;  
+    gap: 1.5rem;  
+}
+
+.profile-image {
+    max-width: 30%;  
+    height: auto;  
+    border-radius: 15px;
+}
+
+.social-media {
+    margin-top: 1rem;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons img {
+    width: 30px;  /* Atur ukuran ikon sesuai kebutuhan */
+    height: auto; /* Mempertahankan rasio aspek */
+    margin: 0 5px; /* Jarak antar ikon */
+}
+
+.social-icons img:hover {
+    transform: rotate(360deg); /* Rotate on hover */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Layout responsive */
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1200px; /* Membatasi lebar grid */
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-card h3 {
+    font-size: 1.2rem; /* Ukuran teks judul proyek */
+    margin: 0.5rem 0; /* Jarak atas dan bawah */
+}
+
+.project-card p {
+    font-size: 0.9rem; /* Ukuran teks deskripsi proyek */
+    margin-bottom: 1rem; /* Jarak bawah */
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    width: 100%;
+    aspect-ratio: 16/9; /* Menjaga proporsi gambar 16:9 */
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover; /* Menjaga agar gambar terpotong dengan rapi */
+}
+
+.view-project-btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #fe7bc3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem; /* Ukuran teks tombol */
+}
+
+.view-project-btn:hover {
+    background-color: #ff6f91;
+}
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Layout lebih kecil untuk mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr; /* Tampilkan satu kolom pada layar kecil */
+    }
+}
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #ffccdf; /* Latar belakang footer pink pastel */
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Jarak antar elemen form yang lebih kecil */
+    padding: 1rem; /* Mengurangi padding */
+    border-radius: 10px;
+    
+    transition: transform 0.3s;
+    animation: bounceIn 0.5s forwards; /* Ganti animasi */
+    max-width: 300px; /* Mengatur lebar maksimum form kontak */
+    margin: auto; /* Center form di halaman */
+    text-align: center; /* Center text di dalam form */
+}
+
+.contact-form:hover {
+    transform: translateY(-5px); /* Efek mengangkat saat hover */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 0.5rem; 
+    font-weight: bold;
+    color: #f46aaa; 
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem; /* Mengurangi padding input dan textarea */
+    border: 2px solid #e894be; 
+    border-radius: 10px; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 0.9rem; /* Ukuran font lebih kecil */
+    background: #f4eef0; 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #f0acc2; 
+    box-shadow: 0 0 10px rgba(233, 95, 141, 0.5); 
+    outline: none; 
+}
+
+.contact-form button {
+    padding: 0.5rem; /* Mengurangi padding tombol */
+    background: #e785a5; 
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    font-weight: bold; 
+    font-size: 1rem; /* Ukuran font tombol lebih kecil */
+}
+
+.contact-form button:hover {
+    background: #ed99b5; 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ed7f94; 
+}
+
+/* Animasi Bounce In */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.client-logo {
+    width: 70%; /* Memastikan gambar mengisi lebar kolom */
+    height: auto; 
+    max-height: 50px; /* Atur tinggi maksimum gambar */
+    object-fit: contain; 
+}
+
+#trusted-clients {
+    padding: 2rem 0;  
+    text-align: center;
+}
+
+.row {
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap;  
+}
+
+.col-md-2, .col-sm-4, .col-6 {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin-bottom: 1rem;  
+    flex: 1;  
+}
+
+.client-logo {
+    width: 100%;  
+    max-height: 70px; 
+    object-fit: contain; 
+}
+
+.client-logo:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Animasi */
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Terapkan animasi */
+h2 {
+    animation: slideIn 0.5s ease forwards; /* Animasi untuk judul bagian */
+}
+
+.start-btn {
+    animation: bounce 2s infinite; /* Animasi bounce untuk tombol */
+}
+
+.project-card {
+    animation: fadeIn 0.5s ease forwards; /* Animasi untuk kartu proyek */
+}
+
+/* Animasi untuk form kontak */
+.contact-form {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Animasi untuk logo klien */
+.client-logo {
+    animation: fadeIn 0.5s ease forwards; /* Fade-in untuk logo */
+    opacity: 0; /* Mulai dari tidak terlihat */
+}
+
+/* Animasi tertunda untuk logo */
+.row .client-logo {
+    animation-delay: 0.3s; /* Tunda untuk efek staggered */
+}
+
+.row .client-logo:nth-child(2) { animation-delay: 0.4s; }
+.row .client-logo:nth-child(3) { animation-delay: 0.5s; }
+.row .client-logo:nth-child(4) { animation-delay: 0.6s; }
+.row .client-logo:nth-child(5) { animation-delay: 0.7s; }
+
